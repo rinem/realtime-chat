@@ -1,11 +1,11 @@
 var express = require('express');
 var socket = require('socket.io');
-
+var port = process.env.PORT || 4000;
 var app = express();
 
 app.use(express.static('public'));
 
-var server = app.listen(4000, function(){
+var server = app.listen(port, function(){
     console.log('Server Up');
 });
 
