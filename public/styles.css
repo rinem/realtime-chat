@@ -1,4 +1,15 @@
+html, body {
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
 body{
+    min-height: 100%;
+    margin: 10px auto;
     font-family: 'Nunito';
     background-color: lightblue;
 }
@@ -14,6 +25,7 @@ p{
 }
 
 #chat{
+    min-height: 400px;
     max-width: 600px;
     margin: 30px auto;
     border: 1px solid #ddd;
