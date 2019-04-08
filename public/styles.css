@@ -9,15 +9,16 @@ html{
 
 body{
     min-height: 100%;
-    margin: 10px auto;
+    margin: 5px auto;
     font-family: 'Nunito';
     background-color: lightblue;
 }
 
 h2{
-    font-size: 18px;
-    padding: 10px 20px;
-    color: #575ed8;
+    font-size: 38px;
+    margin: auto;
+    text-align: center;
+    color: #0c0f94;
 }
 
 p{
@@ -25,10 +26,10 @@ p{
 }
 
 #chat{
-    min-height: 400px;
+    min-height: 320px;
     max-width: 600px;
     margin: 30px auto;
-    border: 1px solid #ddd;
+    border: 2px solid black;
     box-shadow: 1px 3px 5px rgba(0,0,0,0.05);
     border-radius: 2px;
 }
@@ -39,7 +40,7 @@ p{
 }
 
 #window{
-    height: 400px;
+    height: 320px;
     overflow: auto;
     background: #f2f2f2;
 }
